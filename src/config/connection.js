@@ -6,19 +6,19 @@ class Connection {
         this.connectionMongoDB();
     }
 
-    connectionMongoDB(){
-        const URL_MONGO =  process.env.URL_MONGO;   
-        const mongoose = require('mongoose');
-        
-        async function main() {
-            mongoose.connect(
-                URL_MONGO,
-                { useNewUrlParser: true, useUnifiedTopology: true }
-            );
+    async connectionMongoDB(){
+        const url = process.env.URL_MONGO;
+        const connectionParams={
+            useNewUrlParser: true,
+            useUnifiedTopology: true 
         }
-        main() 
-        .then(() => console.log('success connection in mongodb'))
-        .catch(err => console.log(err));
+        await mongoose.connect(url,connectionParams)
+            .then( () => {
+                console.log('Connected to the database ')
+            })
+            .catch( (err) => {
+                console.error(`Error connecting to the database. ${err}`);
+            })
     }
 }
 
