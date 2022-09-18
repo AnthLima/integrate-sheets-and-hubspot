@@ -12,10 +12,10 @@ module.exports = {
   },
   rules: {
     'import/prefer-default-export': 'off',
-    'linebreak-style': false,
-    'no-console': false,
+    'linebreak-style': 0,
+    'no-console': 0,
     "class-methods-use-this": [
-      false, 
+      0, 
       { "exceptMethods": [
 
       ] }
