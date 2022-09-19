@@ -104,7 +104,7 @@ Caso tudo ocorra bem , será enviada uma resposta assim:
 
 As outras rotas que estão com o AuthMidleware, devem receber esse token, neste projeto usou-se a autenticação com o jwt, e Bearer token, então uma vez no postman ou insomnia siga para "Authorization", em "Type" selecione o Bearer Token e insira o token gerado no login para proseguir paras as seguintes rotas:
 
-{baseUrl}/user/show -> Aqui é possível ver os usuários cadastrados até o momento.
+{baseUrl}/user/show -> Aqui é possível ver os usuários cadastrados até o momento, mas no momento somente serve de teste para a autenticação mesmo, já que os usuários estão fixos!
 
 {baseUrl}/getSheetAndCreateContact/:spreadsheetID -> Aqui é onde a mágica ocorre, basta substituir ":spreadsheetID" pelo id da sua tabela criada no google sheet, este id fica entre o "d/" e o "/edit" como no exemplo abaixo:
 
