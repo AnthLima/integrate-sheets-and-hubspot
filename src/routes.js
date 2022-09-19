@@ -8,8 +8,8 @@ const routes = new Router();
 
 routes.post("/login", LoginController.index);
 
-routes.post("/user", UserController.store);
-routes.get("/user", AuthMidleware, UserController.show);
+routes.post("/user/store", UserController.store);
+routes.get("/user/show", AuthMidleware, UserController.show);
 
 routes.get(
   "/getSheetAndCreateContact/:spreadsheetID",
