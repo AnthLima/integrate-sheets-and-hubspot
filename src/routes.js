@@ -8,7 +8,7 @@ const routes = new Router();
 
 routes.post("/login", LoginController.index);
 
-routes.post("/user", AuthMidleware, UserController.store);
+routes.post("/user", UserController.store);
 routes.get("/user", AuthMidleware, UserController.show);
 
 routes.get(
