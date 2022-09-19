@@ -56,16 +56,16 @@ Aqui ficará seu token de aplicação do hubspot, é o token que obtemos ao cria
 HUBSPOT_APPLICATION_TOKEN=
 
 Aqui são as configurações da chave do tipo json gerada no gerenciamento de sua api do google sheets que foi ativada:
-TYPE=
-PROJECT_ID=
-PRIVATE_KEY_ID=
-PRIVATE_KEY=
-CLIENT_EMAIL=
-CLIENT_ID=
-AUTH_URI=
-TOKEN_URI=
-AUTH_PROVIDER_CERT_URL=
-CLIENT_CERT_URL=
+- TYPE=
+- PROJECT_ID=
+- PRIVATE_KEY_ID=
+- PRIVATE_KEY=
+- CLIENT_EMAIL=
+- CLIENT_ID=
+- AUTH_URI=
+- TOKEN_URI=
+- AUTH_PROVIDER_CERT_URL=
+- CLIENT_CERT_URL=
 
 ### Fluxo das apis do projeto
 
