@@ -109,6 +109,8 @@ As outras rotas que estão com o AuthMidleware, devem receber esse token, neste 
 
 https://docs.google.com/spreadsheets/d/"{1glkmzRMN94xwsEZRaQ7nDa8OvJ_6g0M7oVWZOJy6pgg}"/edit#gid=0
 
+O id neste caso está entre chaves e aspas: "{1glkmzRMN94xwsEZRaQ7nDa8OvJ_6g0M7oVWZOJy6pgg}"
+
 Uma vez efetuando o envio desde id, para esta rota, basta enviar e os dados serão cadastrados automaticamente no Hubspot como contatos.
 
 ## Licença do projeto
