@@ -22,7 +22,13 @@ Após criada a conta, deve criar uma aplicação , após criar uma aplicação s
 
 ### Configuração da Api do Google Sheets
 
-Para que seja possível a integração correta da api do Google Sheets, é necessário que esta sequência de passos seja efetuada com sucessso: - Acesse [console.developers](https://console.cloud.google.com/apis/dashboard) - Você verá um painel de configurações , o primeiro passo é criar um projeto e logo em seguida você deve ativar a API do Google Sheets, a mesma pode ser encontrada mais facilmente na aba "bibliotecas". - Em seguida vamos fazer o processo de autenticação para esse serviço. Selecione o botão de “Criar credenciais”, existem diferentes formas de seguir com essa etapa, sugiro escolher a opção de “conta de serviço”. - Siga para o formulário, somente é obrigatório o primeiro item. - Após a conta de serviço criada , um email é gerado junto a ela, ainda será necessário adicionar uma chave para este email, siga para "Contas de serviço" e clique em "Adicionar Chave", escolha a chave no formato JSON, logo após a seleção do mesmo, será feito o download de um arquivo json de credenciais, guarde-o , pois ele será útil para cadastrar as configuração do arquivo ".env". - Agora sobre o google cloud já esta tudo pronto, apenas copie o email gerado. - Crie uma planilha no google sheets. - Clique em "Compartilhar" e insira o email que copiou do google cloud.
+Para que seja possível a integração correta da api do Google Sheets, é necessário que esta sequência de passos seja efetuada com sucessso: 
+- Acesse [console.developers](https://console.cloud.google.com/apis/dashboard) 
+- Você verá um painel de configurações , o primeiro passo é criar um projeto e logo em seguida você deve ativar a API do Google Sheets, a mesma pode ser encontrada mais facilmente na aba "bibliotecas". 
+- Em seguida vamos fazer o processo de autenticação para esse serviço. Selecione o botão de “Criar credenciais”, existem diferentes formas de seguir com essa etapa, sugiro escolher a opção de “conta de serviço”. 
+- Siga para o formulário, somente é obrigatório o primeiro item. 
+- Após a conta de serviço criada , um email é gerado junto a ela, ainda será necessário adicionar uma chave para este email, siga para "Contas de serviço" e clique em "Adicionar Chave", escolha a chave no formato JSON, logo após a seleção do mesmo, será feito o download de um arquivo json de credenciais, guarde-o , pois ele será útil para cadastrar as configuração do arquivo ".env". 
+- Agora sobre o google cloud já esta tudo pronto, apenas copie o email gerado. - Crie uma planilha no google sheets. - Clique em "Compartilhar" e insira o email que copiou do google cloud.
 
 ### Planilha do google sheets
 
