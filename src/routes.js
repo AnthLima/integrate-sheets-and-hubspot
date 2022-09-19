@@ -13,6 +13,7 @@ routes.get("/user", AuthMidleware, UserController.show);
 
 routes.get(
   "/getSheetAndCreateContact/:spreadsheetID",
+  AuthMidleware,
   GoogleSheetsController.getDocumentForCreateContact
 );
 module.exports = routes;
