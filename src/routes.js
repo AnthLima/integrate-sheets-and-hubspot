@@ -1,7 +1,6 @@
 const { Router } = require("express");
 const LoginController = require("./app/Controllers/LoginController");
 const UserController = require("./app/Controllers/UserController");
-const HubspotController = require("./app/Controllers/HubspotController");
 const GoogleSheetsController = require("./app/Controllers/GoogleSheetsController");
 const AuthMidleware = require("./app/Midlewares/AuthMidleware");
 
@@ -12,7 +11,8 @@ routes.post("/login", LoginController.index);
 routes.post("/user", AuthMidleware, UserController.store);
 routes.get("/user", AuthMidleware, UserController.show);
 
-routes.post("/hubspot/create-contact", HubspotController.createContact);
-
-routes.get("/sheets/get-info/:spreadsheetID", GoogleSheetsController.getDoc);
+routes.get(
+  "/getSheetAndCreateContact/:spreadsheetID",
+  GoogleSheetsController.getDocumentForCreateContact
+);
 module.exports = routes;
