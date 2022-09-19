@@ -5,6 +5,7 @@
 Neste projeto é possível trazer dados de uma planília do google sheets e usá-los para cadastrar um contato no hubspot, apenas serão cadastrados contatos cujo email seja corporativo, além disto, passado um mesmo email de um contato já criado é possível atualizar suas informações.
 
 ### Instalação
+Foi utilizado o node v14.19.0 !
 
 ```
 - yarn
