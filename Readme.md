@@ -38,7 +38,7 @@ firstname, lastname, email, phone, website, company
 
 Lembre-se foi colocado um limitador de até 10 rows(linhas) , ou seja, somente é possível cadastrar até 10 contatos no Hubspot;
 
-Lembre-se somente serão cadastrados contatos cujo provedor não seja nenhum desses: "gmail","outlook","yahoo","terra","icloud" e"hotmail" o que se concretiza um email corporativo, como por exemplo: anthony.lima@devapi.com.br !!
+Lembre-se somente serão cadastrados contatos cujo provedor não seja nenhum desses: "gmail","outlook","yahoo","terra","icloud" e"hotmail" o que se concretiza um email corporativo, como por exemplo: anthony.lima@dominio.com.br !!
 
 Lembre-se se um novo contato for cadastrado com um email que já existe, ele modificará as propriedades anteriores, de maneira a atualizar os outros itens como firstname, company, lastname, ou seja, todos que não são o email em si, pois o projeto usa tanto a api de cadastro como a de update, que no caso é uma só também!
 
